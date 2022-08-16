@@ -3,7 +3,7 @@ const app = express()
 const port = 4000
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017' ,
+mongoose.connect('mongodb://localhost:27017/Languagele' ,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
