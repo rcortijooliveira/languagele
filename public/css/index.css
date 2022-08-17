@@ -1,0 +1,276 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: none;
+
+}
+
+.cover-container {
+  width: 30%
+}
+
+.masthead {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin: 0.5rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead>svg {
+  margin: 0.5em;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.nav-masthead {
+  float: right;
+}
+
+.masthead-brand {
+  float: left;
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+
+}
+
+
+.word-button {
+  background-color: #2b2f2b;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-family: 'Bakbak One';
+
+}
+
+.word-button:hover {
+  background-color: #679fe2;
+  color: white;
+}
+
+.border1 {
+  border-radius: 3px;
+  background-color: rgb(59, 58, 58);
+  color: rgb(255, 255, 255);
+  border: 2px solid #679fe2;
+}
+
+
+.language-id-button-text {
+  font-size: 12px;
+}
+
+.word-row {
+  box-sizing: border-box;
+  height: 75%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+.solution-zone  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.solution-row {
+  display: flex;
+
+}
+
+
+@media screen and (max-width: 362px) and (min-width: 100px) {
+    .letter-box {
+      border: 2px solid gray;
+      border-radius: 3px;
+      margin: 2px;
+      font-size: 2.5rem;
+      font-weight: 700;
+      height: 3rem;
+      width: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      width: 100%
+    }
+  
+    .cover-container {
+      width: 100%
+    }
+  }
+  
+  @media screen and (max-width: 363px) and (min-width: 0px) {
+  
+    .word-button  {
+      width: 100%;
+      height: 30px;
+      font-size: 1rem;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      line-height: 0.8;
+    }
+  
+    .letter-box {
+      border: 2px solid gray;
+      border-radius: 3px;
+      margin: 2px;
+      font-size: 2.5rem;
+      font-weight: 700;
+      height: 3rem;
+      width: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+    }
+  
+    .cover-container {
+      width: 100%
+    }
+  
+  }
+  
+  @media screen and (max-width: 700px) and (min-width: 364px) {
+  
+    .word-button {
+      width: 100%;
+      height: 30px;
+      font-size: 1rem;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      line-height: 0.8;
+    }
+  
+    .cover-container {
+      width: 100%
+    }
+  
+  }
+  
+  @media screen and (max-width: 1218px) and (min-width: 701px) {
+  
+    .word-button {
+      width: 100%;
+      height: 30px;
+      font-size: 1rem;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      line-height: 0.8;
+    }
+  
+    .cover-container {
+      width: 50%
+    }
+  
+  }
+  
+  @media (min-width:1219px) {
+  
+    .word-button,
+    .language-id-button-text,
+    .language-value-button-text{
+      width: 100%;
+      height: 30px;
+      font-size: 1rem;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      line-height: 0.8;
+  
+    }
+  
+    .cover-container {
+      width: 30%
+    }
+  
+  }  
+
+.language-id-button-text,
+.language-value-button-text{
+  display: none;
+  flex: 1;
+  margin-right: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.language-id-button-text{
+  background-color: #679fe2;
+  border: 2px solid #E2AA67;
+}
+
+.language-value-button-text {
+  background-color: #E2AA67;
+}
