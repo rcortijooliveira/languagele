@@ -23,6 +23,9 @@ mongoose.connect('mongodb://localhost:27017/Languagele' ,
 const mainController = require('./controllers/main');
 app.get('/', mainController);
 
+const wordInfoController = require('./controllers/wordinfo');
+app.get("/dayword", wordInfoController)
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)

@@ -255,6 +255,17 @@ body {
   
   }  
 
+  .answer-revealed {
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  
+  }
+
 .language-id-button-text,
 .language-value-button-text{
   display: none;
