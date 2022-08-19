@@ -24,8 +24,10 @@ const mainController = require('./controllers/main');
 app.get('/', mainController);
 
 const wordInfoController = require('./controllers/wordinfo');
-app.get("/dayword", wordInfoController)
+app.get("/dayword", wordInfoController);
 
+const solutionController = require('./controllers/solution');
+app.get('/solutionCheck', solutionController);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)

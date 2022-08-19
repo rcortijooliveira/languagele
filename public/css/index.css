@@ -148,6 +148,38 @@ body {
 
 }
 
+#keyboard-cont {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#keyboard-cont div {
+  display: flex;
+}
+
+.second-row {
+  margin: 0.5rem 0;
+}
+
+.keyboard-button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 0 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #818384;
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  font-family: 'Bakbak One';
+  height: 58px;
+
+}
+
+
 
 @media screen and (max-width: 362px) and (min-width: 100px) {
     .letter-box {
@@ -197,6 +229,21 @@ body {
   
     .cover-container {
       width: 100%
+    }
+
+    .keyboard-button {
+      font-size: 0.5rem;
+      font-weight: 700;
+      padding: 0.5rem;
+      margin: 0 2px;
+      cursor: pointer;
+      text-transform: uppercase;
+      background-color: #818384;
+      color: #ffffff;
+      border: 0;
+      border-radius: 4px;
+      font-family: 'Bakbak One';
+      height: 58px;
     }
   
   }
